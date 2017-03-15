@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Designing Facebook for Mobile VR"
-date:   2017-03-15 11:04:13 +0800
+date:   2017-03-15 11:35:13 +0800
 categories: jekyll update
 ---
 # Designing Facebook for Mobile VR
