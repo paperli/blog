@@ -2,3 +2,5 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .DS_STORE
+nextjs/node_modules/
+nextjs/.next/
