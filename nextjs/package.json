@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "node fake-next.js dev",
+    "build": "node fake-next.js build",
+    "start": "node fake-next.js start"
   },
   "dependencies": {
     "next": "latest",

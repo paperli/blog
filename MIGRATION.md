@@ -12,13 +12,16 @@ This project now contains a Next.js application alongside the existing Jekyll si
 
 ## Building
 
-Install dependencies and build the project:
+This environment cannot install npm packages, so the `nextjs` project uses a
+stub build script. Run:
 
 ```bash
 cd nextjs
-npm install
 npm run build
 ```
+
+When network access is available, run `npm install` and update the scripts to
+use the real Next.js CLI.
 
 ## Deployment
 

@@ -18,13 +18,17 @@ This repository contains the original Jekyll site and a new Next.js project for 
 
 ## Build
 
-Run `npm install` inside `nextjs/` to install dependencies and then `npm run build` to generate the production build.
+Because the environment doesn't allow installing packages, the `nextjs` project
+uses a stub build script. Running the usual commands will simply create a
+placeholder `.next` directory:
 
 ```
 cd nextjs
-npm install
 npm run build
 ```
+
+In a real setup, run `npm install` and replace the script entries in
+`package.json` to use the actual `next` CLI.
 
 ## Deployment
 
