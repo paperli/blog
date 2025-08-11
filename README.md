@@ -32,4 +32,5 @@ In a real setup, run `npm install` and replace the script entries in
 
 ## Deployment
 
-After building, run `npm start` to serve the Next.js site. Deploy the contents of `.next` using your preferred Node.js hosting platform.
+After building, run `npm start` to serve the Next.js site.
+Deploy the contents of `.next` using your preferred Node.js hosting platform.

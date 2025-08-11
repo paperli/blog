@@ -25,4 +25,4 @@ use the real Next.js CLI.
 
 ## Deployment
 
-Start the server with `npm start` or deploy using any Node.js hosting provider.
+After building, start the server with `npm start` or deploy the `.next` output using any Node.js hosting provider.
