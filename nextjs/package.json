@@ -1,0 +1,17 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node fake-next.js dev",
+    "build": "node fake-next.js build",
+    "start": "node fake-next.js start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@next/mdx": "latest",
+    "gray-matter": "latest"
+  }
+}
