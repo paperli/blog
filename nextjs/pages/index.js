@@ -25,7 +25,7 @@ export default function Home({ posts }) {
       {tags.map((tag) => (
         <section key={tag} className="category">
           <h2>{tag}</h2>
-          <ul>
+          <ul className="article-list">
             {tagMap[tag].map((post) => (
               <li key={post.slug}>
                 <Link href={`/${post.slug}`}>{post.title}</Link>

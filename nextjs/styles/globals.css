@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
 
+:root {
+  --font-serif: 'Merriweather', serif;
+  --font-sans: 'Open Sans', sans-serif;
+  --color-bg: #f8f8f8;
+  --color-text: #111;
+  --color-border: #333;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font-sans);
   margin: 0;
   padding: 0;
-  background: #f8f8f8;
-  color: #111;
+  background: var(--color-bg);
+  color: var(--color-text);
 }
 
 .site-header {
@@ -15,9 +23,16 @@ body {
 }
 
 .site-title {
-  font-family: 'Merriweather', serif;
+  font-family: var(--font-serif);
   margin: 0;
   font-size: 2.5rem;
+}
+
+.site-tagline {
+  font-family: var(--font-serif);
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
 }
 
 .site-main {
@@ -33,24 +48,33 @@ body {
 }
 
 .category h2 {
-  font-family: 'Merriweather', serif;
+  font-family: var(--font-serif);
   margin-top: 0;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid var(--color-border);
   padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .category ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+.article-list li {
+  padding-left: 1rem;
+  text-indent: -1rem;
 }
 
 .category li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-serif);
 }
 
 .category a {
   text-decoration: none;
-  color: #222;
+  color: var(--color-text);
 }
 
 .category a:hover {
@@ -65,4 +89,6 @@ body {
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
